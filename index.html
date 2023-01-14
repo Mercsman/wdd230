@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+<div id="content">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD230 Assignment Portal</title>
+    <meta name="description" content="Assignment page for my class">
+    <meta name="author" content ="Seth Bowles">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="medium.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
     <div>
@@ -18,7 +22,7 @@
         </nav>
 
     <main>
-        <ul>
+        <ul id="lessonlinks">
             <li><a href="wdd230/index.html">Lesson 1</a></li>
             <li><a href="">Lesson 2</a></li>
             <li><a href="">Lesson 3</a></li>
@@ -30,21 +34,18 @@
             <li><a href="">Lesson 9</a></li>
             <li><a href="">Lesson 10</a></li>
             <li><a href="">Lesson 11</a></li>
-            </ul>
+        </ul>
     </main>
     <footer>
     <h3>WDD230 Projects &copy; 2023 | Seth Bowles | California</h3>
         <div id="currentdate">
-        <script src="scripts/currentdate.js">
-        // toLocaleDateString
-        // const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
-        // document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
+        <script src="scripts/currentdate.js"></script>
+        </div>
+        <div id="modified">
         
-            // const todaysdate = new Date();
-            // console.log(todaysdate);
-        </script>
         </div>
     </footer>
     </div>
 </body>
+</div>
 </html>
