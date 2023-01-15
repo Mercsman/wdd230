@@ -95,3 +95,40 @@ section.rt {
         border-bottom-right-radius: 8px;
     }
 }
+
+#copyright {
+    text-align: center;
+    background-color: #3a3b3c;
+    margin-left: 600px;
+    margin-right: 600px;
+    color: #dfc55a;
+}
+    
+#currentdate {
+    text-align: center;
+    background-color: #3a3b3c;
+    margin-left: 600px;
+    margin-right: 600px;
+    color: #dfc55a;
+}
+    
+#modified {
+    text-align: center;
+    background-color: #3a3b3c;
+    margin-left: 600px;
+    margin-right: 600px;
+    color: #dfc55a;
+}
+    
+#hero-msg h1 {
+    color: #dfc55a;
+}
+    
+.welcome {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #3a3b3c;
+    width: auto;
+    margin-left: 400px;
+    margin-right: 400px;
+}
