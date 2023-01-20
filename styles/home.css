@@ -1,40 +1,22 @@
 /* Head */
-
 /* -------------------------------------------------------------------------------- */
 /* Body */
-#content {
-    position: relative;
-    max-width: 1600px;
-    max-height: 800px;
-    margin: 0 auto;
-}
-
 /* -------------------------------------------------------------------------------- */
 /* Header */
-#content img {
-    position: absolute;
-    top: -75px;
-    right: 250px;
+header {
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color:#3a3b3c;
+max-width: 800px;
+margin: auto;
 }
 
-.family {
-    max-width: 100px;
-    max-height: 200px;
-    margin: auto;
-}
-
-#hero-msg h1 {
+header h1 {
 color: #dfc55a;
+/* background-color: #3a3b3c; */
+margin: 50px 0 40px 30px;
 }
 
-.welcome {
-margin-top: 100px;
-text-align: center;
-background-color: #3a3b3c;
-width: auto;
-margin-left: 400px;
-margin-right: 400px;
-}
 /* -------------------------------------------------------------------------------- */
 /* Main */
 #lessonlinks {
@@ -50,6 +32,11 @@ color: #f0f0f0;
 /* -------------------------------------------------------------------------------- */
 /* Footer */
 
+footer {
+max-width: 800px;
+margin: auto;
+}
+
 h3 {
     text-align: center;
 }
@@ -58,23 +45,17 @@ h3 {
 #copyright {
 text-align: center;
 background-color: #3a3b3c;
-margin-left: 600px;
-margin-right: 600px;
 color: #dfc55a;
 }
 
-#currentdate {
+/* #currentdate {
 text-align: center;
 background-color: #3a3b3c;
-margin-left: 600px;
-margin-right: 600px;
 color: #dfc55a;
-}
+} */
 
 #modified {
 text-align: center;
 background-color: #3a3b3c;
-margin-left: 600px;
-margin-right: 600px;
 color: #dfc55a;
 }
