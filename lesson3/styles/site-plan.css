@@ -111,7 +111,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 800px;
 

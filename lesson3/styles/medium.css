@@ -1,8 +1,12 @@
 @media only screen and (min-width: 32.5em) {
 
-/* header {
+header {
     max-width: 800px;
     margin: auto;
+}
+
+nav {
+flex-direction: row;
 }
 
 body {
@@ -20,8 +24,4 @@ img {
     height: 500px;
 }
 
-nav a {
-    display: block;
-    flex: 1 1 auto;
-} */
 }
