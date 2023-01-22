@@ -1,3 +1,3 @@
-const lastmod = document.lastModified;
+const lastMod = document.lastModified;
 
-document.getElementById('modified').innerHTML = 'Last modified ' + lastmod;
+document.getElementById('modified').innerHTML = 'Last modified ' + lastMod;

@@ -1,7 +1,6 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@media only screen and (min-width: 16em) {
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 :root {
@@ -28,8 +27,7 @@ Fonts are separated by a | */
 }
 
 body {
-display: grid;
-  max-width: 350px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
@@ -38,24 +36,20 @@ display: grid;
 img {
   display: block;
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+}
+h2 {
   text-align: center;
 }
-/* h2 {
-  text-align: center;
-} */
 hr {
   height: 3px;
   margin: 35px 0;
   background: var(--accent1-color);
 }
 header {
-  display: grid;
   padding: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
@@ -131,5 +125,63 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
+.sitemap {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: repeat(6, 15%);
+  grid-template-rows: 3em 1.5em 1.5em 3em;
+  grid-template-areas: ". . home home . ."
+    ". . . top . ."
+    ". left left right right ."
+    "page2 page3 . . page4 page5";
+}
+.sitemap > div {
+
+  text-align: center;
 
 }
+.sm-home {
+  grid-area: home;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page2 {
+  grid-area: page2;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page3 {
+  grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page4 {
+    grid-area: page4;
+    background-color: #ccc;
+    line-height: 3em;
+}
+.sm-page5 {
+    grid-area: page5;
+    background-color: #ccc;
+    line-height: 3em;
+}
+
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
+
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+
+
