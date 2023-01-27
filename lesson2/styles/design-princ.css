@@ -11,10 +11,14 @@ body {
     font-family: 'Lato', sans-serif;
     height: 100%;
     padding: 5rem 1.5rem;
-    position: relative;
+    /* position: relative; */
     background: hsl(0, 0%, 95%);
     font-size: x-small;
     overflow-wrap: break-word;
+    margin: auto;
+    /* min-width: 500px; */
+    /* max-width: 1000px; */
+
 }
 
 section.design {
@@ -53,11 +57,12 @@ section.rt {
     margin-bottom: 1.25rem;
 }
 
-@media (min-width: 375px) {
+/* @media (min-width: 375px) { */
     .container {
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: 1fr;
+
     }
     section.design {
         padding: 2.25rem;
@@ -70,53 +75,31 @@ section.rt {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
     }
-}
+/* } */
 
-@media (min-width: 900px) {
-    body {
-        height: 100vh;
-        padding: 0;
-        display: grid;
-    }
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 450px;
-        width: 70%;
-        margin: auto;
-        position: relative;
-    }
-    .design.vh {
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-    }
-    .design.rt {
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-    }
-}
+
 
 #copyright {
     text-align: center;
     background-color: #3a3b3c;
-    margin-left: 600px;
-    margin-right: 600px;
+    /* margin-left: 600px; */
+    /* margin-right: 600px; */
     color: #dfc55a;
 }
     
 #currentdate {
     text-align: center;
     background-color: #3a3b3c;
-    margin-left: 600px;
-    margin-right: 600px;
+    /* margin-left: 600px; */
+    /* margin-right: 600px; */
     color: #dfc55a;
 }
     
 #modified {
     text-align: center;
     background-color: #3a3b3c;
-    margin-left: 600px;
-    margin-right: 600px;
+    /* margin-left: 600px; */
+    /* margin-right: 600px; */
     color: #dfc55a;
 }
     
@@ -125,10 +108,10 @@ section.rt {
 }
     
 .welcome {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     text-align: center;
     background-color: #3a3b3c;
     width: auto;
-    margin-left: 400px;
-    margin-right: 400px;
+    /* margin-left: 400px; */
+    /* margin-right: 400px; */
 }
