@@ -1,4 +1,4 @@
-@media screen only (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     body {
         height: 100vh;
         padding: 0;
@@ -19,5 +19,9 @@
     .design.rt {
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
+    }
+    
+    .rt {
+        grid-column: 3 / 4;
     }
 }

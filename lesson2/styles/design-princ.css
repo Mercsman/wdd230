@@ -6,6 +6,24 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 } */
 
+a {
+    color:hsl(0, 0%, 95%);
+}
+
+header h1 {
+    padding: .5rem;
+    
+}
+
+#copyright {
+    font-size: large;
+    padding: .5rem;
+}
+
+#modified {
+    font-size: large;
+    padding: .5rem;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -26,7 +44,7 @@ section.design {
 }
 
 section.vh {
-    background: hsl(180, 90%, 12%);
+    background: hsl(0, 100%, 20%);
     
 }
 
