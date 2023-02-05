@@ -18,13 +18,16 @@ header {
     background-color: #3a3b3c;
     color: #f0f0f0;
     font-family: 'Roboto', sans-serif;
+    max-height: 35rem;
 }
 
 #social {
-    grid-column: 3 / 5;
+    grid-column: 5 / 6;
     grid-row: 1 / 2;
-    margin-top: 3rem;
-    margin-left: 8rem;
+    width: 128px;
+    height: 128px;
+    /* margin-top: 3rem; */
+    margin-left: 3rem;
 }
 
 #currentdate {
@@ -45,8 +48,8 @@ header {
 }
 
 header img {
-    width: 35%;
-    max-width: 35%;
+    width: 50%;
+    max-width: 50%;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     padding: 1rem;
@@ -55,6 +58,7 @@ header img {
 
 nav {
 background-color: #3a3b3c;
+grid-column: 4/5;
 }
 
 nav ul {
@@ -124,6 +128,8 @@ main section {
     border: 1px solid rgba(0, 0, 0, .5);
     min-height: 10rem;
     margin: .3rem;
+    background-color:#4e5166;
+    color: white;
 }
 
 main div {
@@ -140,6 +146,13 @@ main div .spotlight3 {
     display: none;
 }
 
+/* .event {
+    background-color:#3a3b3c;
+    color:#dfc55a;
+} */
+a {
+    color: white;
+}
 
 /* -----------------------------------Footer--------------------------------- */
 
