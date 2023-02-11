@@ -16,7 +16,7 @@
 
 <header>
     <section class="logo">
-        <img src="images/riverside-chamberog.png" alt="Riverside Chamber logo">
+        <img src="images/riverside-chamber150.png" alt="Riverside Chamber logo">
     </section>
     <div class="header-text">
         <h1>Riverside </h1>
@@ -61,11 +61,18 @@
     
     <section class="weather">
         <h3>Weather Report</h3>
+        <img src="images/sun150.png" alt="sun graphic">
         <hr>
-        <h2>Placeholder text for script</h2>
+        <div class="current-temp">
+            <div><span>55</span>&deg;</div>
+        </div>
+        <div class="info-group">
+            <div class="label">Wind</div>
+            <div><span data-current-wind>9</span><span class="value-sub-info">mph</span></div>
+        </div>
+        <h3>Wind Speed:</h3>
+        <h3>Wind Chill: <spanid></spanid></h3>
         <hr>
-        <p>Wind Speed:  ...</p>
-        <p>Wind Chill:  ...</p>
     </section>
     
     
@@ -118,7 +125,7 @@
 
 <footer>
     <div class="container">
-        <img src="images/riverside-chamber.png" alt="Riverside Chamber logo">
+        <img src="images/riverside-chamber150.png" alt="Riverside Chamber logo">
         
         <div class="left">
             <h2>Riverside Chamber of Commerce</h2>
@@ -140,6 +147,7 @@
         </div>
     </div>
 </footer>
+    <script src="scripts/windchill.js"></script>
     <script src="scripts/scripts.js"></script>
 </body>
 

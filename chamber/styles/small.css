@@ -170,15 +170,22 @@ main .hero img {
 }
 
 .hero h2 {
-	position: absolute;
-	top: 400px;
-	right: 725px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid rgba(0,0,0,.1);
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
-	opacity: 0.8;
-	color: black;
+    display: none;
+}
+
+/* main .weather {
+    width: 50%;
+    height: 50%;
+} */
+/* 
+.weather h3 {
+    text-align: center;
+} */
+
+.weather img {
+    width: 50%;
+    height: 50%;
+    /* margin: auto; */
 }
 
 /* -----------------------------------Footer--------------------------------- */
