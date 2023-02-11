@@ -1,4 +1,4 @@
-@media only screen and (min-width: 30rem) {
+/* @media only screen and (min-width: 30rem) { */
 
 body {
 background-color: #f0f0f0;
@@ -111,6 +111,16 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+.logo {
+    width: 75%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.logo img {
+    width: 100%;
+}
+
 /* -----------------------------------Main--------------------------------- */
 
 main {
@@ -154,6 +164,23 @@ a {
     color: white;
 }
 
+main .hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero h2 {
+	position: absolute;
+	top: 400px;
+	right: 725px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: 0.8;
+	color: black;
+}
+
 /* -----------------------------------Footer--------------------------------- */
 
 footer {
@@ -189,4 +216,4 @@ footer img {
     color: #dfc55a;
 }
 
-}
+/* } */
