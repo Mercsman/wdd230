@@ -1,3 +1,4 @@
+
 const calWindChill = (temperature, speed) => {
     return (temperature >= 50 && speed > 3) 
     ?
