@@ -1,8 +1,9 @@
+const na = "N/A";
 
 const calWindChill = (temperature, speed) => {
-    return (temperature >= 50 && speed > 3) 
-    ?
-        Math.round(
+    if (temperature <= 50 && speed > 3) 
+    {
+        const calculation = Math.round(
             35.74 
             + 0.6215 
             * temperature 
@@ -10,18 +11,21 @@ const calWindChill = (temperature, speed) => {
             * Math.pow(speed, 0.16) 
             + 0.4275 
             * temperature 
-            * Math.pow(speed, 0.16) 
-            * 10)
-        / 10
-    :
-        "N/A";
+            * Math.pow(speed, 0.16) )
+        document.getElementById("chillWind").innerHTML = calculation;
+        } 
+        else {
+            const calculation = na
+            document.getElementById("chillWind").innerHTML = calculation;
+        };
+        
 }
 
 const displayWindChill = () => {
-    let temperature = Number(document.getElementById("temperature").textContent || 0);
-    let wind = Number(document.getElementById("wind").textContent || 0);
+    let temperature = Number(document.getElementById("temperature").textContent);
+    let wind = Number(document.getElementById("wind").textContent);
     let result = calWindChill(temperature, wind);
-    document.getElementById("chillWind").innerHTML = result;
+    
 }
 
 displayWindChill();

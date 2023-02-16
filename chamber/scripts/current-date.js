@@ -26,14 +26,14 @@ const months = [
 "November",
 "December"
 ];
-const todaysdate = new Date();
-const dayName = dayNames[todaysdate.getDay()];
-const monthName = months[todaysdate.getMonth()];
-const year = todaysdate.getFullYear;
-const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName + ", " + todaysdate.getFullYear();
+const todaysDate = new Date();
+const dayName = dayNames[todaysDate.getDay()];
+const monthName = months[todaysDate.getMonth()];
+const year = todaysDate.getFullYear;
+const currentDate = dayName + ", " + todaysDate.getDate() + " " + monthName + ", " + todaysDate.getFullYear();
 
 
 
 
 
-document.getElementById('currentdate').textContent = currentdate; 
+document.getElementById('currentdate').textContent = currentDate; 
