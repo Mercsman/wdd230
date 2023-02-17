@@ -1,0 +1,18 @@
+header {
+    min-height: 200px;
+    background-color:#6e6e74;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3b3b;
+    color: white;
+    margin: auto;
+}
+
+img {
+    min-width: 50px;
+    min-height: 50px;
+    padding: 10rem;
+}
