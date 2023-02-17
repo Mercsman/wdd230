@@ -37,3 +37,21 @@ const currentDate = dayName + ", " + todaysDate.getDate() + " " + monthName + ",
 
 
 document.getElementById('currentdate').textContent = currentDate; 
+
+
+
+
+if(dayName === "Monday" || dayName === "Tuesday") {
+    document.getElementById("banner").style.display = "block";
+}
+
+
+
+// let banner = document.getElementByID('banner');
+
+// if (dayName == 'Monday' || dayName == 'Tuesday') {
+//     banner.style.display = "block";
+// } 
+// else {
+//     banner.style.display = "none";
+// };

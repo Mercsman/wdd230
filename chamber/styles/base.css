@@ -5,6 +5,22 @@ margin: 0;
 overflow: scroll;
 }
 
+#banner {
+    background-color:#4e5166;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    display: none;
+}
+
+/* .banner-content {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+} */
+
 /* -----------------------------------Header--------------------------------- */
 
 header {
