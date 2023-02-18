@@ -47,7 +47,12 @@
     <section class="hero">
         <h2>Welcome to Riverside!</h2>
         <!-- <p>Join button placeholder</p> -->
-        <img src="images/riverside.jpg" alt="Riverside">
+        <picture>
+            <source media="(max-width: 200px)" srcset="images/riverside200.jpg">
+            <source media="(max-width: 500px)" srcset="images/riverside500.jpg">
+            <source media="(max-width: 800px)" srcset="images/riverside800.jpg">
+            <img src="images/riverside.jpg" alt="Riverside">
+        </picture>
     </section>
     
     
@@ -63,7 +68,7 @@
     
     <section class="weather">
         <h3>Weather Report</h3>
-        <img src="images/sun150.png" alt="sun graphic">
+        <img src="images/sun150.png" alt="Sun">
         <hr>
         <p>Current Temp: <span id="temperature">40</span>&deg;</p>
         <p>Wind Speed: <span id="wind">4</span>mph</p>
@@ -145,7 +150,7 @@
 </footer>
 
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/wind-chill.js"></script>
     <!-- <script src="scripts/main.js"></script> -->
     <!-- <script src="scripts/weather.js"></script> -->
 </body>
