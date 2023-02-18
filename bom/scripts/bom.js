@@ -10,11 +10,16 @@ button.addEventListener('click', () => {
     const listText = document.createElement('span');
     const listBtn = document.createElement('button');
 
+    if (myItem === '') {
+        return;
+    }
+    else {
     listItem.appendChild(listText);
     listText.textContent = myItem;
     listItem.appendChild(listBtn);
     listBtn.textContent = '❌';
     list.appendChild(listItem);
+    };
 
     listBtn.addEventListener('click', () => {
 list.removeChild(listItem);
