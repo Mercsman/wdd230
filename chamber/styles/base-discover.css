@@ -5,6 +5,22 @@ margin: 0;
 overflow: scroll;
 }
 
+#banner {
+    background-color:#4e5166;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    display: none;
+}
+
+/* .banner-content {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+} */
+
 /* -----------------------------------Header--------------------------------- */
 
 header {
@@ -31,7 +47,7 @@ header h1 .lower-text {
 }
 
 
-#currentdate {
+#visit-banner {
     grid-column: 1 / 4;
     grid-row: 2;
     /* margin-top: auto; */
@@ -128,6 +144,8 @@ nav span img {
     padding: 0 .7rem 0 0;
 }
 
+
+
 /* -----------------------------------Main--------------------------------- */
 
 main {
@@ -135,64 +153,32 @@ main {
     grid-template-columns: 1fr;
     padding: .3rem;
     /* text-align: center; */
-    background-color:#e4e3e3;
+    background-color:#4e5166;
     margin: .2rem;
 }
 
-main section {
-    display: block;
-    padding: .8rem;
-    border: 1px solid rgba(0, 0, 0, .5);
-    min-height: 10rem;
-    margin: .3rem;
-    background-color:#4e5166;
-    color: white;
-}
+/* #visit-banner {
+    text-align: center;
+    background-color: #b3b3b3;
+    padding: 2rem;
+} */
 
 main div {
-    padding: .5rem;
-    border: 1px solid rgba(0, 0, 0, .5);
-    margin: .3rem;
-}
-
-main .join {
-    display: none;
-}
-
-main div .spotlight3 {
-    display: none;
-}
-
-/* .event {
-    background-color:#3a3b3c;
-    color:#dfc55a;
-} */
-a {
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3b3b;
     color: white;
+    margin: auto;
 }
 
-main .hero img {
-    width: 100%;
-    height: 100%;
+main img {
+    min-width: 50px;
+    min-height: 50px;
+    padding: 3rem;
 }
 
-.hero h2 {
-    display: none;
-}
-
-/* main .weather {
-    width: 50%;
-    height: 50%;
-} */
-/* 
-.weather h3 {
+main h1, h2, h4 {
     text-align: center;
-} */
-
-.weather img {
-    width: 50%;
-    height: 50%;
-    /* margin: auto; */
 }
 
 /* -----------------------------------Footer--------------------------------- */
