@@ -1,32 +1,26 @@
-// initialize display elements
-const visitsDisplay = document.querySelector("#visits");
-const daysLeftOutput = document.querySelector("#daysleft");
-
-// get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls")); // Using the Number() function ensures that if the storage item does not exist, it will be converted into a zero (0) which helps on the if block condition.
-
-// determine if this is the first visit or display the number of visits.
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = 'This is your first visit!';
+if (window.location.href == "https://mercsman.github.io/wdd230/chamber/index.html" || window.location.href == "https://mercsman.github.io/wdd230/chamber/discover.html")
+{
+if (!localStorage.getItem("last-visit"))
+{
+    localStorage.setItem("last-visit", Date.now());
+    document.getElementById("visits").innerHTML = "Welcome to your first visit!";
 }
 
-// increment the number of visits.
-numVisits++;
-// store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
-
-// Days until Christmas
-let today = new Date();
-let christmas = new Date(today.getFullYear(), 11, 25);
-// check if is the waing days of December, if so ... change to next year.
-if (today.getMonth() == 11 && today.getDate() > 25) {
-	christmas.setFullYear(christmas.getFullYear() + 1);
+else
+{
+    calculate_difference();
 }
+};
 
-let daysleft = (christmas.getTime() - Date.now()) / 84600000;
+function calculate_difference()
+{
+    let last_date = localStorage.getItem("last-visit");
+    let current_date = Date.now();
 
-daysLeftOutput.innerHTML = `${daysleft.toFixed(
-	0
-)} days<br> 🎄Christmas is ${christmas}`;
+
+    let difference = current_date - last_date;
+
+    document.getElementById("visits").innerHTML = difference;
+
+    localStorage.setItem("last-visit", Date.now());
+};
