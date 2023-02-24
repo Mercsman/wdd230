@@ -38,10 +38,8 @@
                 <li><a href="https://www.youtube.com/user/riversidechamber"><span><img src="images/youtube125.png" alt="youtube logo"></span>Youtube</a></li>
             </ul>
         </nav>
-    <div id="currentdate">
-        
-        <script src="scripts/current-date.js"></script>
-    </div>
+    <!-- <div id="currentdate">
+    </div> -->
 </header>
 
 <main>
@@ -91,11 +89,54 @@
                 </tr>
             </tbody>
     </table>
-    <form>
-        <label>
+    <form method="get" action="thankyou.html">
+        <fieldset>
+            <legend>Membership Information</legend>
+        <label class="top" for="firstName">
             First Name (Required)
-            <input>
         </label>
+            <input name="firstName" type="text" required>
+        <label class="top" for="lastName">
+            Last Name (Required)
+        </label>
+            <input name="lastName" type="text" required>
+        <label class="top" for="email">
+            Email (Required)
+        </label>
+            <input name="email" type="email" required placeholder="johndoe@gmail.com">
+        <label class="top" for="phoneNumber">
+            Phone Number (Required)
+        </label>
+            <input name="phoneNumber" type="tel" required placeholder="123-456-7890">
+        </fieldset>
+        <fieldset>
+            <legend>Business Information</legend>
+        <label class="middle" for="businessName">
+            Business Name (Required)
+        </label>
+            <input name="businessName" type="text" required>
+        <label class="middle" for="position">
+            Position in Company
+        </label>
+            <input name="position" type="text" placeholder=" e.g. Finance Manager" pattern="^[\w\s-]{7,}$">
+        <label class="middle" for="website">
+            Website url
+        </label>
+            <input name="website" type="url" placeholder="Enter the website here">
+        <label class="middle" for="discription">
+            Business Description
+        </label>
+            <textarea  name="description" type="text" placeholder="Write a brief description here:" rows="4" cols="50"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Membership Level</legend>
+            <label class="bottom"><input type="radio"> Non-Profit</label>
+            <label class="bottom"><input type="radio"> Bronze</label>
+            <label class="bottom"><input type="radio"> Silver</label>
+            <label class="bottom"><input type="radio"> Gold</label>
+            <input type="hidden" id="current-date">
+        </fieldset>
+            <input type="submit">
     </form>
 </main>
 
@@ -122,6 +163,8 @@
 
     <script src="scripts/scripts.js"></script>
     <script src="scripts/wind-chill.js"></script>
+    <!-- <script src="scripts/current-date.js"></script> -->
+    <script src="scripts/hidden-date.js"></script>
 </body>
 
 </html>

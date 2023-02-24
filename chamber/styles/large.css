@@ -21,6 +21,10 @@ main div .spotlight3 {
     display: block;
 }
 
+nav {
+    grid-column: 2/3;
+}
+
 
 /* --------Main Grid--------*/
 

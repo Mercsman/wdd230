@@ -26,7 +26,7 @@ overflow: scroll;
 header {
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
     padding: .1rem 0;
@@ -49,7 +49,7 @@ header h1 .lower-text {
 
 #currentdate {
     grid-column: 1 / 4;
-    grid-row: 2;
+    grid-row: 3;
     /* margin-top: auto; */
     text-align: center;
     background-color:#b3b3b3;
@@ -68,6 +68,7 @@ header h1 .lower-text {
 nav {
 background-color: #3a3b3c;
 grid-column: 3/4;
+grid-row: 2;
 justify-content: space-around;
 align-items: center;
 z-index: 10;
@@ -244,4 +245,24 @@ footer img {
     text-align: center;
     background-color: #3a3b3c;
     color: #dfc55a;
+}
+
+
+/* --------------------------------Join.html------------------------------------ */
+
+input:focus:invalid {
+    border: 2px solid red;
+    background-color: rgb(255, 177, 177);
+}
+
+.top, .middle, .bottom {
+    padding-top: .5rem;
+    display: block;
+}
+legend {
+    padding: 1rem;
+}
+
+fieldset {
+    padding: 3rem;
 }
