@@ -112,4 +112,14 @@ main {
     padding: 3rem;
 }
 
+.info {
+    grid-column: 1/5;
+    grid-row: 2/6;
+}
+
+.table {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
 }
