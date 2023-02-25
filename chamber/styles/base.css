@@ -266,3 +266,12 @@ legend {
 fieldset {
     padding: 3rem;
 }
+
+main .thanks {
+    margin: auto;
+    /* text-align: center; */
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lato', 'sans-serif';
+}

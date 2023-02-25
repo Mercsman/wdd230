@@ -97,6 +97,19 @@ main {
     grid-row: 3 / 4;
 }
 
+.thanks {
+    margin: auto;
+    /* text-align: center; */
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lato', 'sans-serif';
+    grid-column: 2/4;
+    grid-row: 1/4;
+}
 
+.thanks p {
+    padding: 3rem;
+}
 
 }

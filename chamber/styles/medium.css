@@ -135,5 +135,19 @@ hr {
 /* ------------------------------Join.html--------------------------------- */
 
 
+.thanks {
+    margin: auto;
+    /* text-align: center; */
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lato', 'sans-serif';
+    grid-column: 1/3;
+    grid-row: 2/5;
+}
+
+.thanks p {
+    padding: 3rem;
+}
 
 }
