@@ -18,6 +18,7 @@ html {
   td, th {
     border: 1px solid rgb(190,190,190);
     padding: 10px 20px;
+    color: #78b455;
   }
   
   th {
@@ -29,7 +30,7 @@ html {
   }
   
   tr:nth-child(even) td {
-    background-color: rgb(158, 156, 177);
+    background-color: #3a3b3c;
   }
   
   tr:nth-child(odd) td {
@@ -60,11 +61,12 @@ html {
     font-weight: bold;
     /* font-family: 'Lato'; */
     font-size: 14px;
+    color: black;
   }
   
   .category {
-    background-color: rgb(66, 66, 66);
-    color: white;
+    background-color: #3a3b3c;
+    color: #dfc55a;
     font-weight: bold;
     font-size: 16px;
   }
