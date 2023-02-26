@@ -275,3 +275,16 @@ main .thanks {
     font-weight: bold;
     font-family: 'Lato', 'sans-serif';
 }
+
+.info {
+    grid-column: 1/2;
+}
+
+.table {
+    grid-column: 1/2;
+}
+
+/* table {
+    width: 50%;
+    overflow-x: auto;
+} */

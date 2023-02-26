@@ -13,6 +13,7 @@ html {
     letter-spacing: 1px;
     font-size: 0.8rem;
     margin: auto;
+    width: auto;
   }
   
   td, th {
