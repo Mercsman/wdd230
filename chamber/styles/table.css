@@ -34,7 +34,7 @@ html {
   }
   
   tr:nth-child(odd) td {
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(29, 16, 16);
   }
   
   caption {
@@ -61,7 +61,7 @@ html {
     font-weight: bold;
     /* font-family: 'Lato'; */
     font-size: 14px;
-    color: black;
+    color: #dfc55a;
   }
   
   .category {
