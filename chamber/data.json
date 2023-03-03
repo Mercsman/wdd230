@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Canine Caviar Pet Foods",
+            "address": "4131 Tigris Wy Riverside, CA 92503",
+            "phone": "(714)-223-1800",
+            "url": "https://caninecaviar.com/",
+            "membership": "Gold",
+            "img": "images/canine-caviar.png"
+        },
+        {
+            "name": "Abbey Carpet & Floor",
+            "address": "6680 Van Buren Blvd Riverside, CA 92503",
+            "phone": "(951)-354-9800",
+            "url": "https://www.abbeycarpetsocal.com/",
+            "membership": "Gold",
+            "img": "images/abbey-carpet-and-floor.png"
+        },
+        {
+            "name": "Canyon Crest Dental",
+            "address": "5225 Canyon Crest Dr &#35;209 Riverside, CA 92507",
+            "phone": "(951)-686-7777",
+            "url": "https://www.canyoncrestdental.com/",
+            "membership": "Gold",
+            "img": "images/canyon-crest.png"
+        },
+        {
+            "name": "Canine Caviar Pet Foods",
+            "address": "4131 Tigris Wy Riverside, CA 92503",
+            "phone": "(714)-223-1800",
+            "url": "https://caninecaviar.com/",
+            "membership": "Gold",
+            "img": "images/canine-caviar.png"
+        },
+        {
+            "name": "Canine Caviar Pet Foods",
+            "address": "4131 Tigris Wy Riverside, CA 92503",
+            "phone": "(714)-223-1800",
+            "url": "https://caninecaviar.com/",
+            "membership": "Gold",
+            "img": "images/canine-caviar.png"
+        },
+        {
+            "name": "Canine Caviar Pet Foods",
+            "address": "4131 Tigris Wy Riverside, CA 92503",
+            "phone": "(714)-223-1800",
+            "url": "https://caninecaviar.com/",
+            "membership": "Gold",
+            "img": "images/canine-caviar.png"
+        },
+        {
+            "name": "Canine Caviar Pet Foods",
+            "address": "4131 Tigris Wy Riverside, CA 92503",
+            "phone": "(714)-223-1800",
+            "url": "https://caninecaviar.com/",
+            "membership": "Gold",
+            "img": "images/canine-caviar.png"
+        },
+        {
+            "name": "Canine Caviar Pet Foods",
+            "address": "4131 Tigris Wy Riverside, CA 92503",
+            "phone": "(714)-223-1800",
+            "url": "https://caninecaviar.com/",
+            "membership": "Gold",
+            "img": "images/canine-caviar.png"
+        },
+        {
+            "name": "Canine Caviar Pet Foods",
+            "address": "4131 Tigris Wy Riverside, CA 92503",
+            "phone": "(714)-223-1800",
+            "url": "https://caninecaviar.com/",
+            "membership": "Gold",
+            "img": "images/canine-caviar.png"
+        }
+    ]
+}
