@@ -1,75 +1,66 @@
-const url = 'https://github.com/Mercsman/wdd230/blob/main/chamber/data.json'
+const url = '/wdd230/chamber/data.json';
 
 async function getBusinessData() {
     const response = await fetch(url);
     const data = await response.json();
     // console.table(data.prophets);
-    // displayBusinesses(data.business);
-    console.log(data)
+    displayBusinesses(data.businesses);
+    // console.log(data)
 }
 
 getBusinessData();
 
-// const displayProphets = (prophets) => {
-//     const cards = document.querySelector('div.cards'); //Selects the container
+// place.className = 'class';
+
+const displayBusinesses = (businesses) => {
+    const cards = document.querySelector('div.cards'); //Selects the container
     
-// prophets.forEach(prophet => {
-//     // create elements to add to the div.cards element
-//     let card = document.createElement('section');
-//     let h2 = document.createElement('h2');
-//     let portrait = document.createElement('img');
-//     let birth = document.createElement('p');
-//     let place = document.createElement('p');
-//     let age = document.createElement('p');
+businesses.forEach(business => {
+    // create elements to add to the div.cards element
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let logo = document.createElement('img');
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let web = document.createElement('p');
+    let member = document.createElement('p');
     
-//     // This builds the h2 content out to show the prophet's full name
-//     h2.textContent = `${prophet.name} ${prophet.lastname}`;
+    // This builds the h2 content out to show the business's full name
+    h2.textContent = `${business.name}`;
     
-//     //Build out paragraph text content
-//     birth.textContent = `Date of birth: ${prophet.birthdate}`;
-//     place.textContent = `Place of birth: ${prophet.birthplace}`;
+    //Build out paragraph text content
+    address.textContent = `Address: ${business.address}`;
+    phone.textContent = `Phone number: ${business.phone}`;
+    web.textContent = `Website: ${business.url}`;
+    member.textContent = `Member level: ${business.membership}`;
     
+    card.className = 'direct-card';
+    h2.className = 'direct-title02'
+    address.className = 'card-p direct-address';
+    phone.className = 'card-p direct-phone';
+    web.className = 'card-p direct-web';
+    member.className = 'card-p direct-member';
+    logo.className = 'direct-logo';
+
+    //Build the image portrait by setting all the relevant attributes
+    logo.setAttribute('src', business.img);
+    logo.setAttribute('alt',`${business.name} - ${member} Member`);
+    logo.setAttribute('loading', 'lazy');
+    logo.setAttribute('width', '340');
+    logo.setAttribute('height', '440');
     
-//     let order = prophet.order;
-//     let sup = "th";
-//     // checking order of prophet
-//     if (order === 1) {
-//         sup = "st";
-//     }
-//     if (order === 2) {
-//         sup = "nd";
-//     }
-//     if (order === 3) {
-//         sup = "rd";
-//     }
-    
-//     //Age calc
-//     if (prophet.death === null) {
-//         prophet.death = (new Date());
-//     }
-//     let death = (new Date(prophet.death));
-//     let deathAge = death - (new Date(prophet.birthdate));
-//     let length = Math.floor((deathAge/365/24/60/60/1000));
-    
-//     age.textContent = `Age: ${length}`
-//     //Build the image portrait by setting all the relevant attributes
-//     portrait.setAttribute('src', prophet.imageurl);
-//     portrait.setAttribute('alt',`${prophet.name} ${prophet.lastname} - ${order}<sup>${sup}</sup> Latter-Day President`);
-//     portrait.setAttribute('loading', 'lazy');
-//     portrait.setAttribute('width', '340');
-//     portrait.setAttribute('height', '440');
-    
-//     //Append the section(card) with the created elements
-//     card.appendChild(h2);
-//     card.appendChild(birth);
-//     card.appendChild(place);
-//     card.appendChild(age);
-//     card.appendChild(portrait);
+    //Append the section(card) with the created elements
+    card.appendChild(h2);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(web);
+    card.appendChild(member);
+    card.appendChild(logo);
 
     
-//     cards.appendChild(card);
-// } //End of for each loop
-// ); 
+    cards.appendChild(card);
+} //End of for each loop
+); 
 
-// } //end of function expression
+} //end of function expression
 

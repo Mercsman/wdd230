@@ -292,7 +292,7 @@ main .thanks {
 
 
 /* -------------------------Directory---------------------------- */
-.direct-title {
+.direct-title, .direct-title02 {
     text-align: center;
 }
 
@@ -301,23 +301,18 @@ main .thanks {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-/* section {
+.direct-card {
     border: 2px solid rgb(216, 184, 0, 0.5);
     align-items: center;
     display: block;
 }
 
-main {
-    background-color: rgb(20, 47, 87);
-    color: rgb(216, 184, 0);
-}
-
-p {
+.card-p {
     text-align: center;
     font-weight: bold;
 }
 
-img {
+.direct-logo {
     box-shadow: 0 0 10px 3px black;
     width: auto;
 	max-width: 325px;
@@ -325,4 +320,4 @@ img {
     display: block;
     margin: 0 auto;
     margin-bottom: .8rem;
-} */
+} 
