@@ -1,0 +1,123 @@
+/* -----------------------------------Directory Main--------------------------------- */
+main {
+    display:block;
+}
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
+	/* width: 100%; */
+}
+
+.menu button {
+	padding: 1rem;
+	font-weight: 700;
+}
+
+.direct-title, .direct-title02 {
+    text-align: center;
+}
+
+main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.direct-card {
+    border: 2px solid rgb(216, 184, 0, 0.5);
+    align-items: center;
+    display: block;
+}
+
+.card-p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.direct-logo {
+    box-shadow: 0 0 10px 3px black;
+    width: auto;
+	max-width: 325px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: .8rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section > * {
+	margin: 0 1rem;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
+/* -----------------------------------Footer--------------------------------- */
+
+footer {
+    text-align: center;
+    background-color:#3a3b3c;
+    color:#f0f0f0;
+}
+
+
+.right a {
+    color:#f0f0f0;
+}
+
+
+footer img {
+    max-width: 15%;
+    width: 15%;
+}
+
+#copyright {
+    text-align: center;
+    background-color: #3a3b3c;
+    color: #dfc55a;
+}
+
+#modified {
+    text-align: center;
+    background-color: #3a3b3c;
+    color: #dfc55a;
+}

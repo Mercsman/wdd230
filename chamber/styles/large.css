@@ -125,32 +125,3 @@ main {
 }
 
 /* -------------------------Directory---------------------------- */
-.direct-title {
-    text-align: center;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-
-.direct-card {
-    border: 2px solid rgb(216, 184, 0, 0.5);
-    align-items: center;
-    display: block;
-}
-
-.card-p {
-    text-align: center;
-    font-weight: bold;
-}
-
-.direct-logo {
-    box-shadow: 0 0 10px 3px black;
-    width: auto;
-	max-width: 325px;
-    height: 300px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: .8rem;
-} 
