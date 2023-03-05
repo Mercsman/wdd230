@@ -43,7 +43,7 @@ businesses.forEach(business => {
     let logo = document.createElement('img');
     let address = document.createElement('p');
     let phone = document.createElement('p');
-    let web = document.createElement('p');
+    let web = document.createElement('a');
     let member = document.createElement('p');
     
     // This builds the h2 content out to show the business's full name
@@ -65,18 +65,20 @@ businesses.forEach(business => {
 
     //Build the image portrait by setting all the relevant attributes
     logo.setAttribute('src', business.img);
-    logo.setAttribute('alt',`${business.name} - ${member} Member`);
+    logo.setAttribute('alt',`${business.name} - logo`);
     logo.setAttribute('loading', 'lazy');
-    logo.setAttribute('width', '340');
-    logo.setAttribute('height', '440');
+    logo.setAttribute('width', '100');
+    logo.setAttribute('height', '100');
+    web.setAttribute('href', business.url);
     
     //Append the section(card) with the created elements
+    card.appendChild(logo);
     card.appendChild(h2);
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(web);
     card.appendChild(member);
-    card.appendChild(logo);
+    
 
     
     cards.appendChild(card);

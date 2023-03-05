@@ -18,59 +18,59 @@
         },
         {
             "name": "Canyon Crest Dental",
-            "address": "5225 Canyon Crest Dr &#35;209 Riverside, CA 92507",
+            "address": "5225 Canyon Crest Dr #209 Riverside, CA 92507",
             "phone": "(951)-686-7777",
             "url": "https://www.canyoncrestdental.com/",
             "membership": "Gold",
             "img": "images/canyon-crest.png"
         },
         {
-            "name": "Canine Caviar Pet Foods",
-            "address": "4131 Tigris Wy Riverside, CA 92503",
-            "phone": "(714)-223-1800",
-            "url": "https://caninecaviar.com/",
-            "membership": "Gold",
-            "img": "images/canine-caviar.png"
+            "name": "Accident Network Law Group",
+            "address": "4121 Brockton Ave #100 Riverside, CA 92501",
+            "phone": "(951)-554-1010",
+            "url": "https://www.accidentnetwork.com/",
+            "membership": "Silver",
+            "img": "images/accident-network.png"
         },
         {
-            "name": "Canine Caviar Pet Foods",
-            "address": "4131 Tigris Wy Riverside, CA 92503",
-            "phone": "(714)-223-1800",
-            "url": "https://caninecaviar.com/",
-            "membership": "Gold",
-            "img": "images/canine-caviar.png"
+            "name": "Autotech",
+            "address": "1735 3rd St Riverside, CA 92503",
+            "phone": "(951)-784-1090",
+            "url": "https://autotechservice.net/",
+            "membership": "Silver",
+            "img": "images/autotech.png"
         },
         {
-            "name": "Canine Caviar Pet Foods",
-            "address": "4131 Tigris Wy Riverside, CA 92503",
-            "phone": "(714)-223-1800",
-            "url": "https://caninecaviar.com/",
-            "membership": "Gold",
-            "img": "images/canine-caviar.png"
+            "name": "Woodcrest Chiropractic",
+            "address": "16801 Van Buren Blvd #D Riverside, CA 92504",
+            "phone": "(951)-780-8833",
+            "url": "https://woodcrestchiropractic.com/",
+            "membership": "Silver",
+            "img": "images/woodcrest.png"
         },
         {
-            "name": "Canine Caviar Pet Foods",
-            "address": "4131 Tigris Wy Riverside, CA 92503",
-            "phone": "(714)-223-1800",
-            "url": "https://caninecaviar.com/",
-            "membership": "Gold",
-            "img": "images/canine-caviar.png"
+            "name": "Bottom Line Concepts",
+            "address": "Riverside, CA 92507",
+            "phone": "(951)-456-7003",
+            "url": "https://erc.bottomlinesavings.com/",
+            "membership": "Bronze",
+            "img": "images/bottomline.png"
         },
         {
-            "name": "Canine Caviar Pet Foods",
-            "address": "4131 Tigris Wy Riverside, CA 92503",
-            "phone": "(714)-223-1800",
-            "url": "https://caninecaviar.com/",
-            "membership": "Gold",
-            "img": "images/canine-caviar.png"
+            "name": "Alabbasi Construction and Engineering",
+            "address": "16810 Van Buren Blvd #200 Riverside, CA 92504",
+            "phone": "(951)-776-9300",
+            "url": "https://alabbasi.biz/",
+            "membership": "Bronze",
+            "img": "images/alabbasi.png"
         },
         {
-            "name": "Canine Caviar Pet Foods",
-            "address": "4131 Tigris Wy Riverside, CA 92503",
-            "phone": "(714)-223-1800",
-            "url": "https://caninecaviar.com/",
-            "membership": "Gold",
-            "img": "images/canine-caviar.png"
+            "name": "Angelica's Florist & Gifts",
+            "address": "1015 E Alessandro #150 Riverside, CA 92508",
+            "phone": "(951)-653-4200",
+            "url": "https://angelicasflorist.com/",
+            "membership": "Bronze",
+            "img": "images/angelicaflorist.png"
         }
     ]
 }

@@ -1,6 +1,7 @@
 /* -----------------------------------Directory Main--------------------------------- */
+
 main {
-    display:block;
+    display: block;
 }
 
 .menu {
@@ -29,6 +30,7 @@ main .cards {
 .direct-card {
     border: 2px solid rgb(216, 184, 0, 0.5);
     align-items: center;
+    text-align: center;
     display: block;
 }
 
@@ -39,17 +41,19 @@ main .cards {
 
 .direct-logo {
     box-shadow: 0 0 10px 3px black;
-    width: auto;
-	max-width: 325px;
-    height: 300px;
-    display: block;
+    /* width: auto; */
+	/* max-width: 325px;
+    height: 300px; */
+    display: inline-block;
     margin: 0 auto;
     margin-bottom: .8rem;
 }
 
+
+
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	align-items: center;
 }
 
@@ -63,15 +67,15 @@ main .cards {
 }
 
 .list {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 
 .list section {
 	display: grid;
 	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
-	padding: 0.25rem;
+	padding: 0.5rem;
 }
 
 .list section > * {
@@ -88,7 +92,7 @@ main .cards {
 }
 
 .list section:nth-child(even) {
-	background-color: #bed;
+	background-color: rgb(29, 16, 16);
 }
 
 /* -----------------------------------Footer--------------------------------- */
