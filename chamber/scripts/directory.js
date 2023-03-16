@@ -56,7 +56,7 @@ businesses.forEach(business => {
     member.textContent = `Member level: ${business.membership}`;
     
     card.className = 'direct-card';
-    h2.className = 'direct-title02'
+    h2.className = 'direct-title02';
     address.className = 'card-p direct-address';
     phone.className = 'card-p direct-phone';
     web.className = 'card-p direct-web';

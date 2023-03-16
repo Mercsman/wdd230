@@ -23,8 +23,10 @@ main {
 }
 
 main .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    display: flex;
+    flex-direction: column;
 }
 
 .direct-card {
@@ -67,13 +69,16 @@ main .cards {
 }
 
 .list {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr 1fr;
+	display: flex;
+	flex-direction: column;
+	/* grid-template-columns: 2fr 1fr 1fr 1fr; */
 }
 
 .list section {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
+display: flex;
+flex-direction: column;
+	/* display: grid;
+	grid-template-columns: 2fr 1fr 1fr; */
 	margin: 0;
 	padding: 0.5rem;
 }
