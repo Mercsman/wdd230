@@ -22,12 +22,12 @@ main {
     text-align: center;
 }
 
-main .cards {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
-    display: flex;
-    flex-direction: column;
-}
+/* main .cards { */
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
+    /* display: flex; */
+    /* flex-direction: column; */
+/* } */
 
 .direct-card {
     border: 2px solid rgb(216, 184, 0, 0.5);
@@ -71,14 +71,15 @@ main .cards {
 .list {
 	display: flex;
 	flex-direction: column;
+	/* display: grid; */
 	/* grid-template-columns: 2fr 1fr 1fr 1fr; */
 }
 
 .list section {
-display: flex;
-flex-direction: column;
-	/* display: grid;
-	grid-template-columns: 2fr 1fr 1fr; */
+/* display: flex; */
+/* flex-direction: column; */
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
 	padding: 0.5rem;
 }
