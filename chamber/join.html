@@ -49,10 +49,10 @@
             <thead>
                 <tr>
                 <th class="blank"></th>
-                <th class="category">NP(Non-Profit)</th>
-                <th class="category">Bronze</th>
-                <th class="category">Silver</th>
-                <th class="category">Gold</th>
+                <th class="category">Trainings</th>
+                <th class="category">Advertising</th>
+                <th class="category">Event Discounts</th>
+                <th class="category">Membership Fees<br>(Annual)</th>
                 </tr>
             </thead>
             <tfoot>
@@ -61,32 +61,32 @@
             </tfoot>
             <tbody>
                 <tr>
-                    <td class="feature">Trainings</td>
+                    <td class="feature">Gold</td>
                     <td>✔</td>
-                    <td>✔</td>
-                    <td>✔</td>
-                    <td>✔</td>
-                </tr>
-                <tr>
-                    <td class="feature checker">Advertising</td>
-                    <td class="checker">N/A</td>
-                    <td class="checker">Mentioned</td>
-                    <td class="checker">Prominent Sidebar</td>
-                    <td class="checker">Front Page Highlight</td>
-                </tr>
-                <tr>
-                    <td class="feature">Event Discounts</td>
-                    <td>N/A</td>
-                    <td>N/A</td>
-                    <td>up to 25%</td>
+                    <td>Front Page Highlight</td>
                     <td>Up to 50%</td>
+                    <td>$250.00</td>
                 </tr>
                 <tr>
-                    <td class="feature">Membership Fees<br>(Annual)</td>
+                    <td class="feature checker">Silver</td>
+                    <td class="checker">✔</td>
+                    <td class="checker">Prominent Sidebar</td>
+                    <td class="checker">up to 25%</td>
+                    <td class="checker">$200.00</td>
+                </tr>
+                <tr>
+                    <td class="feature">Bronze</td>
+                    <td>✔</td>
+                    <td>Mentioned</td>
                     <td>N/A</td>
                     <td>$100.00</td>
-                    <td>$200.00</td>
-                    <td>$250.00</td>
+                </tr>
+                <tr>
+                    <td class="feature">NP(Non-Profit)</td>
+                    <td>✔</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
                 </tr>
             </tbody>
     </table>
@@ -130,13 +130,13 @@
         </label>
             <textarea  name="description" type="text" placeholder="Write a brief description here:" rows="4" cols="50"></textarea>
         </fieldset>
-        <fieldset>
+        <fieldset class="bottom">
             <legend>Membership Level</legend>
-            <label class="bottom"><input type="radio"> Non-Profit</label>
-            <label class="bottom"><input type="radio"> Bronze</label>
-            <label class="bottom"><input type="radio"> Silver</label>
-            <label class="bottom"><input type="radio"> Gold</label>
-            <input type="hidden" id="current-date">
+            <label class="bottom"><input type="radio" name="bottom"> Gold</label>
+            <label class="bottom"><input type="radio" name="bottom"> Silver</label>
+            <label class="bottom"><input type="radio" name="bottom"> Bronze</label>
+            <label class="bottom"><input type="radio" name="bottom"> Non-Profit</label>
+            <input type="hidden" name="hidden-date" id="current-date">
         </fieldset>
             <input type="submit" value="Submit Form">
     </form>
