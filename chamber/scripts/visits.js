@@ -8,11 +8,11 @@ if (!localStorage.getItem("last-visit"))
 
 else
 {
-    let last_date = localStorage.getItem("last-visit");
+    let lastDate = localStorage.getItem("last-visit");
     // let current_date = Date.now();
 
 
-    let difference = ((date - last_date) / 86400000).toFixed(0);
+    let difference = ((date - lastDate) / 86400000).toFixed(0);
 
     document.getElementById("visits").innerHTML = `It has been ${difference} days since you last visit`;
 
@@ -22,11 +22,11 @@ else
 
 function calculate_difference()
 {
-    let last_date = localStorage.getItem("last-visit");
+    let lastDate = localStorage.getItem("last-visit");
     // let current_date = Date.now();
 
 
-    let difference = date - last_date;
+    let difference = date - lastDate;
 
     document.getElementById("visits").innerHTML = difference;
 
