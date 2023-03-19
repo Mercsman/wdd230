@@ -217,6 +217,18 @@ main .hero img {
     height: 50px;
 }
 
+.join {
+    text-align: center;
+}
+
+.join-button {
+    background-color: #dfc55a;
+}
+
+.join-now {
+    color: #000000;
+}
+
 /* -----------------------------------Footer--------------------------------- */
 
 footer {
@@ -295,6 +307,25 @@ main .thanks {
 } */
 
 
+/* ----------------------------Contact us----------------------------------- */
+.contact-head {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.chamber-team {
+    border-bottom: 1px solid black;
+    margin: 1rem 8rem 0 8rem;
+}
+
+.chamber-help {
+    font-size: 18px;
+}
 
 /* -------------------------Directory---------------------------- */
 /* .direct-title, .direct-title02 {
