@@ -28,12 +28,12 @@ const displaySpotlight = (businesses) => {
     while (count < 3) {
         let randIndex = Math.floor(Math.random() * 9)
         let tier = `${businesses[randIndex].tier}`;
-        let isFound = spotlights.includes(randIndex);
+        let displayed = spotlights.includes(randIndex);
         
         
         
 
-        if ((tier <= 2)  && (isFound == false)) { 
+        if ((tier <= 2)  && (displayed == false)) { 
             count += 1
             spotlights.push(randIndex);
             spotlightBusiness(randIndex);
