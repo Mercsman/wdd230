@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods Home Page</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <section class="logo">
+            <img src="images/bountiful-logo150.png" alt="Bountiful Foods Logo">
+        </section>
+        <h1 class="first-half">Bountiful</h1>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primary-nav">   
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+            </ul> 
+        </nav>
+        <h1 class="second-half">Foods</h1>
+        <button class="header-order">start order</button>
+    </header>
+    <!-- ------------------------------------------------------------------------------------------------ -->
+    <main>
+        <section class="hero">
+            <picture>
+                <source media="(max-width: 375px)" srcset="images/bountiful-banner375.jpg">
+                <source media="(max-width: 500px)" srcset="images/bountiful-banner500.jpg">
+                <source media="(max-width: 800px)" srcset="images/bountiful-banner800.jpg">
+                <img src="images/bountiful-banner375.jpg" alt="Fresh Smoothies">
+            </picture>
+        </section>
+    
+        <section class="order">
+            <h3>Fresh taste, Freshly made!</h3>
+            <h1>Make your own<br>Custom smoothie!</h1>
+            <button class="main-order">Order Now</button>
+        </section>
+        
+        <section class="weather">
+            <h3>Weather Report</h3>
+            <p>Today</p>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <hr>
+            <p>Current Temp: <span id="temperature"></span>&deg;</p>
+            <p>Wind Speed: <span id="wind"></span>mph</p>
+            <p>Wind Chill: <span id="chillWind"></span></p>
+            <hr>
+        </section>
+        
+        <section class="location">
+            <p>115-193 Palomar Airport Rd, Carlsbad, CA 92008</p>
+            <img src="images/maps-location.png" alt="Google Maps Location">
+        </section>
+        
+        <section class="info-card">
+            <p>Card placeholder</p>
+        </section>
+        
+        <section class="socials">
+            <h3>Stay Connected!</h3>
+            <img src="images/twitter.png" alt="Twitter">
+            <img src="images/facebook.png" alt="Facebook">
+            <img src="images/instagram.png" alt="Instagram">
+            <img src="images/youtube.png" alt="Youtube">
+        </section>
+    </main>
+    <!-- ------------------------------------------------------------------------------------------------- -->
+    <footer>
+        <div class="container">
+            <img src="images/riverside-chamber150.webp" alt="Riverside Chamber logo">
+            
+            <div class="left">
+                <h2>Riverside Chamber of Commerce</h2>
+                <p class="address">3985 University Avenue, Riverside, California 92501</p>
+            </div>
+            <div class="right">
+                <p class="email">riversidechamber@realemail.com</p>
+            
+                <p class="phone">123-456-7890</p>
+                <a href="https://www.google.com/maps/place/3985+University+Ave,+Riverside,+CA+92501/@33.9837388,-117.3799461,17z/data=!3m1!4b1!4m6!3m5!1s0x80dcb1f1a2cb5d2d:0xc85961ffa52c3de8!8m2!3d33.9837344!4d-117.3777574!16s%2Fg%2F11b8v7xfjw">Map</a>
+            </div>
+            <hr>
+            
+    
+            <div id="modified"></div>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/wind-chill.js"></script>
+    <script src="scripts/lazy-load.js"></script>
+    <script src="scripts/last-modified.js"></script>
+</body>
+</html>
