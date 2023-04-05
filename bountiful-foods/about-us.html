@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods About Us Page</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <!-- <a href="#" class="logo">Bountiful Foods<span>.</span></a> -->
+        <a href="#" class="logo"><img src="images/bountiful-logo150.png" alt="Bountiful Foods Logo"></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+            <li><a href="fresh.html" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="about-us.html" onclick="toggleMenu();">About Us</a></li>
+            <!-- <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li> -->
+            <!-- <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2><span>Fresh</span> Starts</h2>
+            <p>Curious how we began? Read below!</p>
+            <!-- <a href="#" class="btn">Our Menu</a> -->
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="title-text"><span>A</span>bout Us</h2>
+                <p>We had very humble beginnings. Starting as a lemonade stand on the side of the road hoping to bring a smile to the communities faces.
+                <br><br>
+                However we have been blessed to have been able to grow bigger, and mobile, and can now bring you the highest quality and freshest smoothies and drinks out there!</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="images/about.jpg">
+                </div>
+            </div>
+            </div>
+    </section>
+    
+    
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="title-text">Hear What They <span>S</span>ay</h2>
+            <p>Reviews from customers</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/testi1.jpg">
+                </div>
+                <div class="text">
+                    <p>Honestly I was amazed at how fresh everything was! They really do work hard to give you the best. </p>
+                    <h3>Jenny Abrams</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/testi2.jpg">
+                </div>
+                <div class="text">
+                    <p>I love exercising at the beach and whenever their truck comes by I always make sure I get my smoothie. It refreshes my body and makes me feel I can conquer my goals!</p>
+                    <h3>Brad Dowding</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/testi3.jpg">
+                </div>
+                <div class="text">
+                    <p>It's a wonderful place to get drinks from to relax and chat with friends while out and about. Truly a slice of paradise in the form of a truck. </p>
+                    <h3>Rebecca Ling</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="title-text"><span>C</span>ontact Us</h2>
+            <p>Questions, comments, concerns? Contact us here!</p>
+        </div>
+        <div class="contactForm">
+            <h3>Send us a message!</h3>
+            <div class="inputBox">
+                <p>Phone Number: 123-456-7890</p>
+            </div>
+            <div class="inputBox">
+                <p>Email: BountifulFoods@gmail.com</p>
+            </div>
+            <div class="inputBox">
+                <p>Google Maps: Carlsbad Blvd, Carlsbad, CA 92008</p>
+            </div>
+            <!-- <div class="inputBox">
+                <input type="submit" value="Send">
+            </div> -->
+        </div>
+    </section>
+    
+    <div class="copyrightText">
+        <p>Copyright 2023 <a href='#'>School</a> Project</p>
+    </div>
+    
+    
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+        
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        };
+    </script>
+    <script scr="scripts/last-modified.js"></script>
+    <!-- <script href="scripts/scripts.js"></script> -->
+</body>
+</html>
